@@ -16,7 +16,7 @@ const Player = (props) => {
             <button className="btn" disabled={isConfirm} onClick={() => {
                 handleSquad(props.player)
                 setIsConfirm(true)
-            }}>{isConfirm ? "in squad" : "Add"}</button>
+            }}>{isConfirm ? <i class="fas fa-ban"> in squad</i> : "Add"}</button>
         </div>
     );
 };
