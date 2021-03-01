@@ -2,6 +2,7 @@ import React from 'react';
 import './Team.css'
 
 const Team = (props) => {
+
     const eachPlayer = props.squad;
     let totalSalary = 0;
     for (let i = 0; i < eachPlayer.length; i++) {
